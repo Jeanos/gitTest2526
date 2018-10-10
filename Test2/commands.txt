@@ -1,2 +1,33 @@
 mkdir gitTest
+mkdir /desktop
+clear
+mkdir ~/Desktop
+clear
+cd ~/Desktop
+mkdir Test2
+cd Test2/
+touch commands.txt
+nano commands.txt
+mkdir gitTest2526
+cp -r gitTest2526 ~/Desktop/
+mv ~/Desktop/Test2 ~/Desktop/gitTest2526/
+cd ~/Desktop
+git clone https://github.com/Jeanos/gitTest2526.git
+mv ~/Desktop/Test2 ~/Desktop/gitTest2526/
+cd ~/Desktop/gitTest2526/
+git status
+git add Test2/
+git commit -m "My Test2 commit"
+git push origin master
+nano repo.txt
+git status
+git add repo.txt 
+git commit -m "Repo.txt Commit"
+git push origin master
+nano index.html
+git status
+git add index.html 
+git commit -m "index commit"
+git push origin master
+
 
